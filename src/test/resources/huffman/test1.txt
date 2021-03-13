@@ -1,0 +1,4 @@
+abacb
+bcac
+de
+f ab
