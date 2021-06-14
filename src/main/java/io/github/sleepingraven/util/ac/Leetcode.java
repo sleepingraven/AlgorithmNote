@@ -31,6 +31,11 @@ public class Leetcode {
             val = x;
         }
         
+        public ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
+        
         @Override
         public String toString() {
             return AnnotatingLinkedListUtil.listToString(this);
@@ -107,15 +112,22 @@ public class Leetcode {
         
     }
     
-    public static class Node1 {
-        int val;
-        Node1 next;
-        Node1 random;
+    public interface Namespace1 {
         
-        public Node1(int val) {
-            this.val = val;
-            this.next = null;
-            this.random = null;
+        /**
+         * see also <a href='https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof/'>复杂链表的复制</a>
+         */
+        public static class Node {
+            public int val;
+            public Node next;
+            public Node random;
+            
+            public Node(int val) {
+                this.val = val;
+                this.next = null;
+                this.random = null;
+            }
+            
         }
         
     }

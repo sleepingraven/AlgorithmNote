@@ -139,11 +139,10 @@ public class LinkedListUtil {
         return slow;
     }
     
-    public static int length(ListNode head) {
+    public static int lengthOf(ListNode head) {
         int len = 0;
-        while (head != null) {
+        for (; head != null; head = head.next) {
             len++;
-            head = head.next;
         }
         return len;
     }

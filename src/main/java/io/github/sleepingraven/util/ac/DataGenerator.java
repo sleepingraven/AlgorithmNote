@@ -16,11 +16,11 @@ import java.util.stream.Collectors;
  */
 public class DataGenerator {
     
-    public static ListNode list(Integer... vals) {
+    public static ListNode buildList(Integer... vals) {
         return AnnotatingLinkedListUtil.generate(vals, ListNode.class);
     }
     
-    public static TreeNode tree(Integer... vals) {
+    public static TreeNode buildTree(Integer... vals) {
         return AnnotatingBinaryTreeUtil.generate(vals, TreeNode.class);
     }
     

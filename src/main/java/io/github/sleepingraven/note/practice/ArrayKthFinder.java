@@ -12,7 +12,8 @@ import java.util.Random;
 public class ArrayKthFinder {
     
     /**
-     * 求两个有序数组的第 k 小的元素，即归并排序后第 k - 1 的元素
+     * 求两个有序数组的第 k 小的元素，即归并排序后第 k - 1 的元素<p>
+     * see also <a href="https://leetcode-cn.com/problems/median-of-two-sorted-arrays/">4. 寻找两个正序数组的中位数</a>
      */
     public static IntArrayWrapper findKth(IntArrayWrapper a, IntArrayWrapper b, int k) {
         int lena = a.getLength();
