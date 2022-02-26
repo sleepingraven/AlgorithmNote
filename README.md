@@ -18,7 +18,7 @@
 
 压缩/解压文件的程序实现
 
-code:
+demo:
 
 ```java
 String srcPath = "D:/new Text Document.pdf";
@@ -51,7 +51,7 @@ D:\new Text Document(1).pdf
 
 用来在矩阵中以螺旋的顺序生成一组下标
 
-code:
+demo:
 
 ```java
 final int n = 4;
@@ -86,7 +86,7 @@ output:
 - 根据数组创建二叉树、链表
 - 将字符串解析成数组
 
-code:
+demo:
 
 ```java
 int[][] matrix = DataGenerator.parseIntArray("[[1,2,3],[4,5,6],[7,8,9]]", int[][].class);
@@ -110,7 +110,7 @@ output:
 - 生成二叉树、链表
 - 格式化二叉树、链表
 
-code:
+demo:
 
 ```java
 final int n = 31;
